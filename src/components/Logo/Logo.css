@@ -51,6 +51,7 @@
 .heading {
   font-size: 24px;
   font-weight: bold;
+  animation: fadein 1.5s;
 }
 
 .rectangle-a {
