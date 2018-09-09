@@ -1,0 +1,81 @@
+:root {
+  /* Hardcoded values to align with logo */
+  --logo-width-a: 48px;
+  --logo-width-b: 104px;
+  --circle-dim: 12px;
+  --full-stop-dim: 4px;
+}
+
+@keyframes fadein {
+  from { opacity: 0 }
+  to { opacity: 1 }
+}
+
+@keyframes widen-a {
+  from { width: 0 }
+  to { width: var(--logo-width-a) }
+}
+
+@keyframes widen-b {
+  from { width: 0 }
+  to { width: var(--logo-width-b) }
+}
+
+@keyframes popin {
+  from { visibility: hidden }
+  to { visibility: visible }
+}
+
+.circle {
+  width: var(--circle-dim);
+  height: var(--circle-dim);
+  background-color: black;
+  border-radius: 100%;
+  /* animation: fadein 1s; */
+}
+
+.container {
+  margin-top: -1.5em;
+  padding-left: 1.25em;
+}
+
+.fullstop {
+  width: var(--full-stop-dim);
+  height: var(--full-stop-dim);
+  background-color: black;
+  animation: popin 1s;
+  animation-delay: 1.75s;
+  animation-fill-mode: both;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.rectangle-a {
+  width: var(--logo-width-a);
+  height: 0.75em;
+  background-color: black;
+  animation: widen-a 1s;
+}
+
+.rectangle-b {
+  width: var(--logo-width-b);
+  height: 0.75em;
+  background-color: black;
+  animation: widen-b 1s;
+  animation-delay: 0.75s;
+  animation-fill-mode: both;
+}
+
+.shape {
+  display: inline-block;
+  margin: 0 0.1em;
+}
+
+.shapes {
+  margin: 0;
+  padding-left: 1.25em;
+  padding-top: 1em;
+}
