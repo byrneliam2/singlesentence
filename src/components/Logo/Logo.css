@@ -34,11 +34,6 @@
   /* animation: fadein 1s; */
 }
 
-.container {
-  margin-top: -1.5em;
-  padding-left: 1.25em;
-}
-
 .fullstop {
   width: var(--full-stop-dim);
   height: var(--full-stop-dim);
@@ -77,6 +72,8 @@
 
 .shapes {
   margin: 0;
-  padding-left: 1.25em;
-  padding-top: 1em;
+}
+
+.text-container {
+  margin-top: -1.5em;
 }

@@ -11,7 +11,7 @@ class Logo extends Component {
           <div className="shape rectangle-b"></div>
           <div className="shape fullstop"></div>
         </div>
-        <div className="container">
+        <div className="text-container">
           <p className="heading">singlesentence.</p>
         </div>
       </div>
