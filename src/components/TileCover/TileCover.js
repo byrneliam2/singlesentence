@@ -5,7 +5,7 @@ class TileCover extends Component {
 
   render() {
     return (
-      <div className="frame">
+      <div className="cover">
       </div>
     );
   }

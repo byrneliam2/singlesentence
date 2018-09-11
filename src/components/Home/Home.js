@@ -3,40 +3,18 @@ import './Home.css';
 
 import { Logo } from '../Logo';
 import { Tile } from '../Tile';
+import { TileCover } from '../TileCover';
 import { Grid } from '../Grid';
 
 class Home extends Component {
   render() {
     return (
       <div>
-        <Logo/>
+        <Logo />
         <Grid>
-          <Tile/>
-          <Tile/>
-          <Tile/>
-          <Tile/>
-          <Tile/>
-          <Tile/>
-          <Tile/>
-          <Tile/>
-          <Tile/>
-          <Tile/>
-          <Tile/>
-          <Tile/>
-          <Tile/>
-          <Tile/>
-          <Tile/>
-          <Tile/>
-          <Tile/>
-          <Tile/>
-          <Tile/>
-          <Tile/>
-          <Tile/>
-          <Tile/>
-          <Tile/>
-          <Tile/>
-          <Tile/>
-          <Tile/>
+          <Tile>
+            <TileCover />
+          </Tile>
         </Grid>
       </div>
     );
