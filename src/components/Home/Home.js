@@ -3,13 +3,14 @@ import './Home.css';
 
 import { Logo } from '../Logo';
 import { Tile } from '../Tile';
+import { Grid } from '../Grid';
 
 class Home extends Component {
   render() {
     return (
       <div>
         <Logo/>
-        <div className="grid">
+        <Grid>
           <Tile/>
           <Tile/>
           <Tile/>
@@ -36,7 +37,7 @@ class Home extends Component {
           <Tile/>
           <Tile/>
           <Tile/>
-        </div>
+        </Grid>
       </div>
     );
   }
