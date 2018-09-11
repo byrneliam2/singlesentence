@@ -5,7 +5,7 @@ class TileContainer extends Component {
 
   render() {
     return (
-      <div className="slide">
+      <div className="slide" style={this.props.style}>
         {this.props.children}
       </div>
     );
