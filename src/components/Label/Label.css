@@ -1,0 +1,8 @@
+.label {
+  background-color: white;
+  font-size: 2em;
+  font-weight: bold;
+  position: absolute;
+  top: 75%;
+  margin: 0.25em;
+}

@@ -4,8 +4,9 @@ import './Home.css';
 import { Logo } from '../Logo';
 import { Tile } from '../Tile';
 import { TileOverlay } from '../TileOverlay';
+import { TileContainer } from '../TileContainer';
+import { Label } from '../Label';
 import { Grid } from '../Grid';
-import TileContainer from '../TileContainer/TileContainer';
 
 class Home extends Component {
 
@@ -20,7 +21,9 @@ class Home extends Component {
         }
       }>
         <Tile>
-          <TileOverlay />
+          <TileOverlay>
+            <Label text="Hello world"/>
+          </TileOverlay>
         </Tile>
       </TileContainer>
       );

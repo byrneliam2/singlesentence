@@ -6,6 +6,7 @@ class TileOverlay extends Component {
   render() {
     return (
       <div className="cover">
+        {this.props.children}
       </div>
     );
   }
