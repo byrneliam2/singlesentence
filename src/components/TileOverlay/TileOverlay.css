@@ -1,7 +1,15 @@
-.cover {
+/* .cover {
   width: 324px;
   height: 324px;
   background-image: url(../../assets/example.png);
   border: 1px solid white;
   z-index: 999;
+} */
+
+.cover {
+  position: absolute;
+  bottom: -100%;
+  height : 100%;
+  width : 100%;
+  background: blue;
 }
