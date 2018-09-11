@@ -1,13 +1,7 @@
-/* .tile {
+.tile {
   width: 324px;
   height: 324px;
-  background-color: red;
-  border: 1px solid white;
-} */
-
-.tile {
-  height: 100%;
-  width: 100%;
-  background-image: url(../../assets/example.png);
-  position: absolute;
+  background-image: url(../../assets/example2.jpg);
+  position: relative;
+  overflow: hidden;
 }
