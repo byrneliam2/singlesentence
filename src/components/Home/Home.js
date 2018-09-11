@@ -22,7 +22,8 @@ class Home extends Component {
       }>
         <Tile>
           <TileOverlay>
-            <Label text="Hello world"/>
+            <Label type="full" text="Hello world" bg="white" fg="black"/>
+            <Label type="sub" text="Hello world" bg="white" fg="black"/>
           </TileOverlay>
         </Tile>
       </TileContainer>

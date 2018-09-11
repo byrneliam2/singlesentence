@@ -1,8 +1,17 @@
-.label {
-  background-color: white;
+.full {
   font-size: 2em;
   font-weight: bold;
   position: absolute;
   top: 75%;
   margin: 0.25em;
+  padding: 0 0.1em;
+}
+
+.sub {
+  font-size: 1em;
+  text-transform: uppercase;
+  position: absolute;
+  top: 90%;
+  margin: 0.25em 0.5em;
+  padding: 0 0.1em;
 }
