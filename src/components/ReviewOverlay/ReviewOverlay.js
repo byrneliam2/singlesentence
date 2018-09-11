@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './TileCover.css';
+import './ReviewOverlay.css';
 
-class TileCover extends Component {
+class ReviewOverlay extends Component {
 
   render() {
     return (
@@ -12,4 +12,4 @@ class TileCover extends Component {
 
 }
 
-export default TileCover;
+export default ReviewOverlay;

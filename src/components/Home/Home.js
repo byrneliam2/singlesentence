@@ -3,7 +3,7 @@ import './Home.css';
 
 import { Logo } from '../Logo';
 import { Tile } from '../Tile';
-import { TileCover } from '../TileCover';
+import { ReviewOverlay } from '../ReviewOverlay';
 import { Grid } from '../Grid';
 
 class Home extends Component {
@@ -13,7 +13,58 @@ class Home extends Component {
         <Logo />
         <Grid>
           <Tile>
-            <TileCover />
+            <ReviewOverlay />
+          </Tile>
+          <Tile>
+            <ReviewOverlay />
+          </Tile>
+          <Tile>
+            <ReviewOverlay />
+          </Tile>
+          <Tile>
+            <ReviewOverlay />
+          </Tile>
+          <Tile>
+            <ReviewOverlay />
+          </Tile>
+          <Tile>
+            <ReviewOverlay />
+          </Tile>
+          <Tile>
+            <ReviewOverlay />
+          </Tile>
+          <Tile>
+            <ReviewOverlay />
+          </Tile>
+          <Tile>
+            <ReviewOverlay />
+          </Tile>
+          <Tile>
+            <ReviewOverlay />
+          </Tile>
+          <Tile>
+            <ReviewOverlay />
+          </Tile>
+          <Tile>
+            <ReviewOverlay />
+          </Tile>
+          <Tile>
+            <ReviewOverlay />
+          </Tile>
+          <Tile>
+            <ReviewOverlay />
+          </Tile>
+          <Tile>
+            <ReviewOverlay />
+          </Tile>
+          <Tile>
+            <ReviewOverlay />
+          </Tile>
+          <Tile>
+            <ReviewOverlay />
+          </Tile>
+          <Tile>
+            <ReviewOverlay />
           </Tile>
         </Grid>
       </div>
