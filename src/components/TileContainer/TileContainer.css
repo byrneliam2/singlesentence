@@ -1,0 +1,9 @@
+.slide {
+  clip-path: inset(0px 0px 0px 0px);
+  transition: clip-path 0.5s;
+}
+
+.slide:hover .cover {
+  clip-path: inset(0px 0px 243px 0px);
+  transition: clip-path 0.5s;
+}

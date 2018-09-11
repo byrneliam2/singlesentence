@@ -3,8 +3,9 @@ import './Home.css';
 
 import { Logo } from '../Logo';
 import { Tile } from '../Tile';
-import { ReviewOverlay } from '../ReviewOverlay';
+import { TileOverlay } from '../TileOverlay';
 import { Grid } from '../Grid';
+import TileContainer from '../TileContainer/TileContainer';
 
 class Home extends Component {
   render() {
@@ -12,60 +13,21 @@ class Home extends Component {
       <div>
         <Logo />
         <Grid>
-          <Tile>
-            <ReviewOverlay />
-          </Tile>
-          <Tile>
-            <ReviewOverlay />
-          </Tile>
-          <Tile>
-            <ReviewOverlay />
-          </Tile>
-          <Tile>
-            <ReviewOverlay />
-          </Tile>
-          <Tile>
-            <ReviewOverlay />
-          </Tile>
-          <Tile>
-            <ReviewOverlay />
-          </Tile>
-          <Tile>
-            <ReviewOverlay />
-          </Tile>
-          <Tile>
-            <ReviewOverlay />
-          </Tile>
-          <Tile>
-            <ReviewOverlay />
-          </Tile>
-          <Tile>
-            <ReviewOverlay />
-          </Tile>
-          <Tile>
-            <ReviewOverlay />
-          </Tile>
-          <Tile>
-            <ReviewOverlay />
-          </Tile>
-          <Tile>
-            <ReviewOverlay />
-          </Tile>
-          <Tile>
-            <ReviewOverlay />
-          </Tile>
-          <Tile>
-            <ReviewOverlay />
-          </Tile>
-          <Tile>
-            <ReviewOverlay />
-          </Tile>
-          <Tile>
-            <ReviewOverlay />
-          </Tile>
-          <Tile>
-            <ReviewOverlay />
-          </Tile>
+          <TileContainer>
+            <Tile>
+              <TileOverlay />
+            </Tile>
+          </TileContainer>
+          <TileContainer>
+            <Tile>
+              <TileOverlay />
+            </Tile>
+          </TileContainer>
+          <TileContainer>
+            <Tile>
+              <TileOverlay />
+            </Tile>
+          </TileContainer>
         </Grid>
       </div>
     );

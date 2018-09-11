@@ -1,0 +1,7 @@
+.cover {
+  width: 324px;
+  height: 324px;
+  background-image: url(../../assets/example.png);
+  border: 1px solid white;
+  z-index: 999;
+}

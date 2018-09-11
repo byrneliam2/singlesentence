@@ -1,0 +1,16 @@
+import React, { Component } from 'react';
+import './TileContainer.css';
+
+class TileContainer extends Component {
+
+  render() {
+    return (
+      <div className="slide">
+        {this.props.children}
+      </div>
+    );
+  }
+
+}
+
+export default TileContainer;
