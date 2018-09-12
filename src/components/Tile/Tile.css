@@ -1,7 +1,7 @@
 .tile {
   width: 324px;
   height: 324px;
-  background-image: url(../../assets/example2.jpg);
+  background-color: black;
   position: relative;
   overflow: hidden;
 }

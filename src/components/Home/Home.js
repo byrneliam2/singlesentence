@@ -25,6 +25,8 @@ class Home extends Component {
             <Label type="full" text="Hello world" bg="white" fg="black"/>
             <Label type="sub" text="Hello world" bg="white" fg="black"/>
           </TileOverlay>
+          <Label type="quote" text="How are you?" bg="black" fg="white"/>
+          <Label type="stamp" text="Timestamp!" bg="black" fg="white"/>
         </Tile>
       </TileContainer>
       );
