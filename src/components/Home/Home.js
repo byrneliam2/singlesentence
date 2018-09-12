@@ -22,10 +22,10 @@ class Home extends Component {
       }>
         <Tile>
           <TileOverlay>
-            <Label type="full" text="Hello world" bg="white" fg="black"/>
+            <Label type="full" text="Hello world blah blah blah" bg="white" fg="black"/>
             <Label type="sub" text="Hello world" bg="white" fg="black"/>
           </TileOverlay>
-          <Label type="quote" text="How are you?" bg="black" fg="white"/>
+          <Label type="quote" text="Long winded review that should wrap lines." bg="black" fg="white"/>
           <Label type="stamp" text="Timestamp!" bg="black" fg="white"/>
         </Tile>
       </TileContainer>

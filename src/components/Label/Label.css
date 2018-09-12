@@ -2,9 +2,13 @@
   font-size: 2em;
   font-weight: bold;
   position: absolute;
+  max-width: 92.5%;
   top: 75%;
   margin: 0.25em;
   padding: 0 0.1em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .sub {
@@ -23,6 +27,10 @@
   top: 25%;
   margin: 0.25em;
   padding: 0 0.1em;
+}
+
+.quote:before, .quote:after {
+  content: '"';
 }
 
 .stamp {
