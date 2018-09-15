@@ -1,0 +1,9 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0.5em 0 1.5em 0;
+}
+
+.header-logo {
+  flex-grow: 1;
+}

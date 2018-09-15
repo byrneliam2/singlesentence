@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Home.css';
 
-import { Logo } from '../Logo';
+import { Header } from '../Header';
 import { Tile } from '../Tile';
 import { TileOverlay } from '../TileOverlay';
 import { TileContainer } from '../TileContainer';
@@ -22,11 +22,11 @@ class Home extends Component {
       }>
         <Tile>
           <TileOverlay>
-            <Label type="full" text="Hello world blah blah blah" bg="white" fg="black"/>
-            <Label type="sub" text="Hello world" bg="white" fg="black"/>
+            <Label type="full" text="Hello world blah blah blah" bg="white" fg="black" />
+            <Label type="sub" text="Hello world" bg="white" fg="black" />
           </TileOverlay>
-          <Label type="quote" text="Long winded review that should wrap lines." bg="black" fg="white"/>
-          <Label type="stamp" text="Timestamp!" bg="black" fg="white"/>
+          <Label type="quote" text="Long winded review that should wrap lines." bg="black" fg="white" />
+          <Label type="stamp" text="Timestamp!" bg="black" fg="white" />
         </Tile>
       </TileContainer>
       );
@@ -37,7 +37,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <Logo />
+        <Header />
         <Grid>
           {this.getTiles()}
         </Grid>

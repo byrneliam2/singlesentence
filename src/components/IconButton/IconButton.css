@@ -1,0 +1,11 @@
+.iconButton {
+  margin: 0 1em;
+  /* border-radius: 100%; */
+  /* background-color: inherit; */
+  /* transition: background-color 1s; */
+}
+
+.iconButton:hover {
+  /* background-color: red; */
+  /* transition: background-color 1s; */
+}
