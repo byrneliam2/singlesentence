@@ -15,7 +15,7 @@ class Home extends Component {
     for (var i = 1; i <= 12; i++) {
       tiles.push(<TileContainer style={
         {
-          animation: `fadein ${0.25 * i}s`,
+          animation: `scale ${0.25 * i/2 > 1.5 ? 1.5 : 0.25 * i/2}s`,
           animationDelay: `${0.1 * i}s`,
           animationFillMode: 'both'
         }

@@ -1,11 +1,14 @@
 .iconButton {
   margin: 0 1em;
-  /* border-radius: 100%; */
-  /* background-color: inherit; */
-  /* transition: background-color 1s; */
+  padding: 0 0.15em;
+  border-radius: 100%;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  transition: border-color 0.5s;
 }
 
 .iconButton:hover {
-  /* background-color: red; */
-  /* transition: background-color 1s; */
+  border-color: black;
+  transition: border-color 0.5s;
 }
