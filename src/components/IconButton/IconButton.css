@@ -12,3 +12,11 @@
   border-color: black;
   transition: border-color 0.5s;
 }
+
+@media only screen and (max-width: 768px) {
+
+  .iconButton {
+    margin: 0 0.5em;
+  }
+
+}
