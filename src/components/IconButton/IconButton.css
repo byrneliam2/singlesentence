@@ -1,16 +1,16 @@
 .iconButton {
   margin: 0 1em;
-  padding: 0 0.15em;
+  padding: 0 0.17em;
   border-radius: 100%;
   border-color: white;
   border-width: 1px;
   border-style: solid;
-  transition: border-color 0.5s;
+  transition: border-color 1s;
 }
 
-.iconButton:hover {
+.iconButton:active {
   border-color: black;
-  transition: border-color 0.5s;
+  transition: border-color 0.1s;
 }
 
 @media only screen and (max-width: 768px) {

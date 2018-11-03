@@ -12,6 +12,8 @@ class IconButton extends Component {
         return <IoMdAdd size={SIZE}/>;
       case "search":
         return <IoMdSearch size={SIZE}/>;
+      default:
+        return undefined;
     }
   }
 

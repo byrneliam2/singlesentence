@@ -5,9 +5,11 @@ class Tile extends Component {
 
   render() {
     return (
-      <div className="tile">
-        {this.props.children}
-      </div>
+      <a href="/">
+        <div className="tile">
+          {this.props.children}
+        </div>
+      </a>
     );
   }
 
